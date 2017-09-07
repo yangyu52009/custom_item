@@ -22,11 +22,22 @@ DEFINES += QT_DEPRECATED_WARNINGS
 # You can also select to disable deprecated APIs only up to a certain version of Qt.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
-
+include (./switchcontrol/switchcontrol.pri) #切换按钮组件
 SOURCES += main.cpp \
-    switchcontrol.cpp \
-    zwidget.cpp
+    zwidget.cpp \
+   # ImageViewer/imageviewer.cpp
+    dynamicProgress/taijiprogress.cpp \
+    dynamicProgress/circleprogress.cpp \
+    dynamicProgress/zoomcirclewaitprogress.cpp \
+    dynamicProgress/linewaitprogress.cpp \
+    dynamicProgress/piewaitprogress.cpp
 
 HEADERS  += \
-    switchcontrol.h \
-    zwidget.h
+    zwidget.h \
+   # ImageViewer/imageviewer.h
+    dynamicProgress/taijiprogress.h \
+    dynamicProgress/circleprogress.h \
+    dynamicProgress/zoomcirclewaitprogress.h \
+    dynamicProgress/linewaitprogress.h \
+    dynamicProgress/piewaitprogress.h
+
