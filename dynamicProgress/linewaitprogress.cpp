@@ -12,6 +12,8 @@ LineWaitProgress::LineWaitProgress(QWidget *parent) :
     this->m_timer = new QTimer;
     this->connect (this->m_timer, &QTimer::timeout,
                    this, this->update);
+
+
 }
 
 void LineWaitProgress::setColor(QColor &color)
