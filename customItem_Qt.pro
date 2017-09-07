@@ -24,9 +24,21 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp \
-    switchcontrol.cpp \
-    zwidget.cpp
+    switchcontrol\switchcontrol.cpp \
+    zwidget.cpp \
+    DynamicProgress/circlewait.cpp \
+    DynamicProgress/donutwait.cpp \
+    DynamicProgress/linewait.cpp \
+    DynamicProgress/piewait.cpp \
+    DynamicProgress/taichiwait.cpp \
+    DynamicProgress/zoomcirclewait.cpp
 
 HEADERS  += \
-    switchcontrol.h \
-    zwidget.h
+    switchcontrol\switchcontrol.h \
+    zwidget.h \
+    DynamicProgress/circlewait.h \
+    DynamicProgress/donutwait.h \
+    DynamicProgress/linewait.h \
+    DynamicProgress/piewait.h \
+    DynamicProgress/taichiwait.h \
+    DynamicProgress/zoomcirclewait.h
