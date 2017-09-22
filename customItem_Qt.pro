@@ -31,7 +31,8 @@ SOURCES += main.cpp \
     DynamicProgress/linewait.cpp \
     DynamicProgress/piewait.cpp \
     DynamicProgress/taichiwait.cpp \
-    DynamicProgress/zoomcirclewait.cpp
+    DynamicProgress/zoomcirclewait.cpp \
+    slideNavigation/slidenavigation.cpp
 
 HEADERS  += \
     switchcontrol\switchcontrol.h \
@@ -41,4 +42,5 @@ HEADERS  += \
     DynamicProgress/linewait.h \
     DynamicProgress/piewait.h \
     DynamicProgress/taichiwait.h \
-    DynamicProgress/zoomcirclewait.h
+    DynamicProgress/zoomcirclewait.h \
+    slideNavigation/slidenavigation.h
